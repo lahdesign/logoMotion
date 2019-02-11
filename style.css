@@ -1,0 +1,10 @@
+@keyframes hideShow {
+    0% { opacity: 1; }
+    10% { opacity: .5; }
+    15% { opacity: 0; }
+    100% { opacity: .5; }
+  } 
+
+  svg {
+    animation: hideShow 5s ease infinite;
+  }
